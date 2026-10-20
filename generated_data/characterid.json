@@ -451,20 +451,20 @@
   },
   "161": {
     "id": 161,
-    "cnName": "优叶",
-    "enName": "Leafia",
-    "jpName": "スグハ",
-    "krName": "스구하",
-    "twName": "優葉",
-    "ver": "2.1.0"
-  },
-  "162": {
-    "id": 162,
     "cnName": "",
     "enName": "",
     "jpName": "",
     "krName": "",
     "twName": "",
+    "ver": "2.1.0"
+  },
+  "162": {
+    "id": 162,
+    "cnName": "艾琳娜",
+    "enName": "Alina",
+    "jpName": "エリナ",
+    "krName": "엘리나",
+    "twName": "艾琳娜",
     "ver": "2.0.0"
   },
   "163": {
@@ -484,5 +484,23 @@
     "krName": "사쿠",
     "twName": "朔",
     "ver": "1.9.0"
+  },
+  "166": {
+    "id": 166,
+    "cnName": "",
+    "enName": "",
+    "jpName": "",
+    "krName": "",
+    "twName": "",
+    "ver": "2.3.0"
+  },
+  "168": {
+    "id": 168,
+    "cnName": "",
+    "enName": "",
+    "jpName": "",
+    "krName": "",
+    "twName": "",
+    "ver": "2.3.0"
   }
 }
