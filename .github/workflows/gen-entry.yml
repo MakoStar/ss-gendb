@@ -66,10 +66,14 @@ jobs:
         working-directory: scripts/node/lqa
         run: node index.js
 
+      - name: Run generate item
+        working-directory: scripts/node/item
+        run: node index.js
+
       - name: Merge outputs and commit
         run: |
           mkdir -p generated_data
-          for dir in scripts/node/char-id scripts/node/gacha scripts/node/lqa; do
+          for dir in scripts/node/char-id scripts/node/gacha scripts/node/lqa scripts/node/item; do
             if [ -d "$dir/generated_data" ]; then
               rsync -a "$dir/generated_data/" generated_data/
             fi
