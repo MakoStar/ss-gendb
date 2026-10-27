@@ -1,0 +1,86 @@
+name: Generate all data
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [data-updated]
+
+permissions:
+  contents: write
+
+env:
+  SS_DATA_DIR: ${{ github.workspace }}/ss-data
+
+jobs:
+  generate-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          version: 10
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: 'pnpm'
+          cache-dependency-path: pnpm-lock.yaml
+
+      - name: Clone data repo
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git clone "https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/MakoStar/ss-data.git" "${{ env.SS_DATA_DIR }}"
+          rm -rf "${{ env.SS_DATA_DIR }}/.git"
+          rm -f "${{ env.SS_DATA_DIR }}/LICENSE" "${{ env.SS_DATA_DIR }}/README.md"
+
+      - name: Check if data exists
+        id: check_data
+        run: |
+          if [ -d "${{ env.SS_DATA_DIR }}" ] && [ -n "$(ls -A "${{ env.SS_DATA_DIR }}" 2>/dev/null)" ]; then
+            echo "valid=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "valid=false" >> "$GITHUB_OUTPUT"
+          fi
+        shell: bash
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Run generate char ids
+        working-directory: scripts/node/char-id
+        run: node index.js
+
+      - name: Run generate gacha
+        working-directory: scripts/node/gacha
+        run: node index.js
+
+      - name: Run generate lqa
+        working-directory: scripts/node/lqa
+        run: node index.js
+
+      - name: Merge outputs and commit
+        run: |
+          mkdir -p generated_data
+          for dir in scripts/node/char-id scripts/node/gacha scripts/node/lqa; do
+            if [ -d "$dir/generated_data" ]; then
+              rsync -a "$dir/generated_data/" generated_data/
+            fi
+          done
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add generated_data/
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore(gen): update all generated data"
+            git push origin main
+          fi
+        shell: bash

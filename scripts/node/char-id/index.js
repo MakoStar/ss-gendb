@@ -1,17 +1,28 @@
 const path = require('path');
-const { LuaFactory } = require('wasmoon');
 const { writeFileSync, mkdirSync } = require('fs');
+const { LuaFactory } = require('wasmoon');
 
-
+/** 需要处理的区服代码 */
 const REGION_CODES = ['CN', 'EN', 'JP', 'KR', 'TW'];
+
+/** 角色id匹配正则 */
 const CHARACTER_ID_PATTERN = /^avg1_(\d{3})$/;
+
+/** 输出文件名 */
 const OUTPUT_FILENAME = 'characterid.json';
-const OUTPUT_DIR = path.join(process.cwd(), 'generated_data');
-mkdirSync(OUTPUT_DIR, { recursive: true });
-const OUTPUT_PATH = path.join(OUTPUT_DIR, OUTPUT_FILENAME);
+
+/** 脚本所在目录 */
+const SCRIPT_DIR = __dirname;
+
+/** 输出目录 固定在脚本自身目录下 */
+const OUTPUT_DIR = path.join(SCRIPT_DIR, 'generated_data');
+
+/** 远程lua仓库基础地址 */
 const REPO_BASE = 'https://github.com/MakoStar/ss-lua/raw/refs/heads/main/';
 
+mkdirSync(OUTPUT_DIR, { recursive: true });
 
+/** 拼接单个区服的lua文件地址 */
 function buildLuaFileUrls(regionCode) {
   const regionBase = new URL(`./Lua/Game/UI/Avg/_${regionCode.toLowerCase()}/`, REPO_BASE);
   return {
@@ -20,7 +31,7 @@ function buildLuaFileUrls(regionCode) {
   };
 }
 
-
+/** 拉取远程文本 失败返回null */
 async function fetchLuaText(url) {
   const response = await fetch(url);
   if (!response.ok) {
@@ -30,7 +41,7 @@ async function fetchLuaText(url) {
   return response.text();
 }
 
-
+/** 在lua引擎中执行源码 失败返回null */
 async function evaluateLua(lua, source) {
   try {
     return await lua.doString(source);
@@ -40,7 +51,7 @@ async function evaluateLua(lua, source) {
   }
 }
 
-
+/** 解析展示名 处理占位与复用 */
 function resolveDisplayName(rawName, characterId, contactsById, regionCharactersById, reuseId) {
   if (rawName !== '***') return rawName;
   const contact = contactsById.get(characterId);
@@ -49,7 +60,7 @@ function resolveDisplayName(rawName, characterId, contactsById, regionCharacters
   return reusedCharacter?.name ?? '';
 }
 
-
+/** 合并单个区服的角色与联系人数据 */
 function mergeRegionCharacters(charactersById, versionsByCharId, regionKey, regionCharacters, regionContacts) {
   const contactsById = new Map(regionContacts.map((c) => [String(c.id), c]));
   const regionCharactersById = new Map(regionCharacters.map((c) => [String(c.id), c]));
@@ -103,8 +114,7 @@ function mergeRegionCharacters(charactersById, versionsByCharId, regionKey, regi
         }
         const reusedCharacter = regionCharactersById.get(String(lookupId));
         if (reusedCharacter?.name) {
-          charactersById[characterId][`${regionKey}Name`] =
-            reusedCharacter.name;
+          charactersById[characterId][`${regionKey}Name`] = reusedCharacter.name;
           break;
         }
       }
@@ -112,7 +122,7 @@ function mergeRegionCharacters(charactersById, versionsByCharId, regionKey, regi
   }
 }
 
-
+/** 汇总版本号并写入角色条目 */
 function applyVersions(charactersById, versionsByCharId) {
   for (const [characterId, versionSet] of Object.entries(versionsByCharId)) {
     const sortedVersions = [...versionSet]
@@ -126,7 +136,7 @@ function applyVersions(charactersById, versionsByCharId) {
   }
 }
 
-
+/** 为缺失的区服名字段补空字符串 */
 function fillMissingRegionNames(charactersById) {
   const regionNameKeys = REGION_CODES.map((code) => `${code.toLowerCase()}Name`);
   for (const entry of Object.values(charactersById)) {
@@ -134,7 +144,7 @@ function fillMissingRegionNames(charactersById) {
   }
 }
 
-
+/** 主流程 遍历区服并生成结果 */
 (async () => {
   if (!process.env.CI) process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
@@ -185,17 +195,18 @@ function fillMissingRegionNames(charactersById) {
     applyVersions(charactersById, versionsByCharId);
     fillMissingRegionNames(charactersById);
 
-    writeFileSync(OUTPUT_PATH, 
+    writeFileSync(
+      path.join(OUTPUT_DIR, OUTPUT_FILENAME),
       JSON.stringify(
-        charactersById, 
-        (key, value) => (key === 'findKeys' ? undefined : value), 
-        2,
+        charactersById,
+        (key, value) => (key === 'findKeys' ? undefined : value),
+        2
       ),
       { encoding: 'utf-8' }
     );
 
     console.log('='.repeat(60));
-    console.log(`[done] total ${Object.keys(charactersById).length} written to ${OUTPUT_PATH}`);
+    console.log(`[done] total ${Object.keys(charactersById).length} written to ${OUTPUT_DIR}`);
   } finally {
     lua.global.close();
   }

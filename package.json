@@ -1,5 +1,8 @@
 {
   "scripts": {
-    "gen:character:id": "node scripts/node/gen-char-id/index.js"
+    "gen:char-id": "node scripts/node/char-id/index.js",
+    "gen:gacha": "node scripts/node/gacha/index.js",
+    "gen:lqa": "node scripts/node/lqa/index.js",
+    "gen": "pnpm gen:char-id && pnpm gen:gacha && pnpm gen:lqa"
   }
 }

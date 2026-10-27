@@ -8,13 +8,15 @@ importers:
 
   .: {}
 
-  scripts/node/gen-char-id:
+  scripts/node/char-id:
     dependencies:
       wasmoon:
         specifier: ^1.16.0
         version: 1.16.0
 
-  scripts/node/generate-lqa:
+  scripts/node/gacha: {}
+
+  scripts/node/lqa:
     dependencies:
       lua-in-js:
         specifier: ^2.2.5

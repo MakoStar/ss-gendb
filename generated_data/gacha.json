@@ -1,0 +1,1784 @@
+{
+    "10110": {
+        "id": 10110,
+        "type": "character",
+        "name": "辉映碧玉的理型",
+        "icon": "tab_gacha_10110",
+        "rateUp5Star": [
+            {
+                "id": 110,
+                "name": "翡冷翠",
+                "element": "暗"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 142,
+                "name": "珂赛特",
+                "element": "暗"
+            },
+            {
+                "id": 116,
+                "name": "岭川",
+                "element": "地"
+            }
+        ],
+        "startTime": "2026-01-13T12:00:00+08:00",
+        "endTime": "2026-02-03T10:59:59+08:00"
+    },
+    "10114": {
+        "id": 10114,
+        "type": "character",
+        "name": "喵次元的狙击手",
+        "icon": "tab_gacha_10114_lang",
+        "rateUp5Star": [
+            {
+                "id": 114,
+                "name": "猫眼",
+                "element": "火"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 126,
+                "name": "紫槿",
+                "element": "火"
+            },
+            {
+                "id": 113,
+                "name": "师渺",
+                "element": "水"
+            }
+        ],
+        "startTime": "2026-06-30T12:00:00+08:00",
+        "endTime": "2026-07-21T10:59:59+08:00"
+    },
+    "10115": {
+        "id": 10115,
+        "type": "character",
+        "name": "乘光而起的星之砂",
+        "icon": "tab_gacha_10115_lang",
+        "rateUp5Star": [
+            {
+                "id": 115,
+                "name": "火垂",
+                "element": "光"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 107,
+                "name": "缇莉娅",
+                "element": "光"
+            },
+            {
+                "id": 116,
+                "name": "岭川",
+                "element": "地"
+            }
+        ],
+        "startTime": "2026-05-14T12:00:00+08:00",
+        "endTime": "2026-06-02T10:59:59+08:00"
+    },
+    "10119": {
+        "id": 10119,
+        "type": "character",
+        "name": "命定奇遇",
+        "icon": "tab_gacha_10119",
+        "rateUp5Star": [
+            {
+                "id": 119,
+                "name": "花原",
+                "element": "风"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 107,
+                "name": "缇莉娅",
+                "element": "光"
+            },
+            {
+                "id": 108,
+                "name": "卡西米拉",
+                "element": "火"
+            }
+        ],
+        "startTime": "2025-11-11T12:00:00+08:00",
+        "endTime": "2025-12-02T03:59:59+08:00"
+    },
+    "10125": {
+        "id": 10125,
+        "type": "character",
+        "name": "命定奇遇",
+        "icon": "tab_gacha_10125",
+        "rateUp5Star": [
+            {
+                "id": 125,
+                "name": "苍兰",
+                "element": "水"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 126,
+                "name": "紫槿",
+                "element": "火"
+            },
+            {
+                "id": 118,
+                "name": "科洛妮丝",
+                "element": "暗"
+            }
+        ],
+        "startTime": "2025-12-30T12:00:00+08:00",
+        "endTime": "2026-01-20T03:59:59+08:00"
+    },
+    "10130": {
+        "id": 10130,
+        "type": "character",
+        "name": "篇篇心意 准点送递",
+        "icon": "tab_gacha_10130_lang",
+        "rateUp5Star": [
+            {
+                "id": 130,
+                "name": "多娜",
+                "element": "水"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 127,
+                "name": "特丽莎",
+                "element": "水"
+            },
+            {
+                "id": 118,
+                "name": "科洛妮丝",
+                "element": "暗"
+            }
+        ],
+        "startTime": "2026-03-17T12:00:00+08:00",
+        "endTime": "2026-04-07T10:59:59+08:00"
+    },
+    "10132": {
+        "id": 10132,
+        "type": "character",
+        "name": "命定奇遇",
+        "icon": "tab_gacha_10132",
+        "rateUp5Star": [
+            {
+                "id": 132,
+                "name": "密涅瓦",
+                "element": "光"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 123,
+                "name": "杏子",
+                "element": "风"
+            },
+            {
+                "id": 113,
+                "name": "师渺",
+                "element": "水"
+            }
+        ],
+        "startTime": "2026-03-10T12:00:00+08:00",
+        "endTime": "2026-03-31T03:59:59+08:00"
+    },
+    "10133": {
+        "id": 10133,
+        "type": "character",
+        "name": "摇曳轻风纯情香",
+        "icon": "tab_gacha_10133",
+        "rateUp5Star": [
+            {
+                "id": 133,
+                "name": "夏花",
+                "element": "风"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 123,
+                "name": "杏子",
+                "element": "风"
+            },
+            {
+                "id": 108,
+                "name": "卡西米拉",
+                "element": "火"
+            }
+        ],
+        "startTime": "2025-12-09T12:00:00+08:00",
+        "endTime": "2025-12-30T03:59:59+08:00"
+    },
+    "10134": {
+        "id": 10134,
+        "type": "character",
+        "name": "雪融时分新芽绽",
+        "icon": "tab_gacha_10134",
+        "rateUp5Star": [
+            {
+                "id": 134,
+                "name": "冬香",
+                "element": "火"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 126,
+                "name": "紫槿",
+                "element": "火"
+            },
+            {
+                "id": 120,
+                "name": "卡娜丝",
+                "element": "风"
+            }
+        ],
+        "startTime": "2025-11-18T12:00:00+08:00",
+        "endTime": "2025-12-09T10:59:59+08:00"
+    },
+    "10135": {
+        "id": 10135,
+        "type": "character",
+        "name": "命定奇遇",
+        "icon": "tab_gacha_10135",
+        "rateUp5Star": [
+            {
+                "id": 135,
+                "name": "雾语",
+                "element": "暗"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 142,
+                "name": "珂赛特",
+                "element": "暗"
+            },
+            {
+                "id": 116,
+                "name": "岭川",
+                "element": "地"
+            }
+        ],
+        "startTime": "2026-01-27T12:00:00+08:00",
+        "endTime": "2026-02-17T03:59:59+08:00"
+    },
+    "10137": {
+        "id": 10137,
+        "type": "character",
+        "name": "优雅起舞 千金驾到",
+        "icon": "tab_gacha_10137_lang",
+        "rateUp5Star": [
+            {
+                "id": 137,
+                "name": "埃莉诺",
+                "element": "风"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 123,
+                "name": "杏子",
+                "element": "风"
+            },
+            {
+                "id": 127,
+                "name": "特丽莎",
+                "element": "水"
+            }
+        ],
+        "startTime": "2026-09-08T12:00:00+08:00",
+        "endTime": "2026-09-29T10:59:59+08:00"
+    },
+    "10139": {
+        "id": 10139,
+        "type": "character",
+        "name": "沐于温情笑意中",
+        "icon": "tab_gacha_10139_lang",
+        "rateUp5Star": [
+            {
+                "id": 139,
+                "name": "艾蕾",
+                "element": "水"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 113,
+                "name": "师渺",
+                "element": "水"
+            },
+            {
+                "id": 117,
+                "name": "璟麟",
+                "element": "光"
+            }
+        ],
+        "startTime": "2026-09-29T12:00:00+08:00",
+        "endTime": "2026-10-20T10:59:59+08:00"
+    },
+    "10140": {
+        "id": 10140,
+        "type": "character",
+        "name": "完美无缺的最终解",
+        "icon": "tab_gacha_10140_lang",
+        "rateUp5Star": [
+            {
+                "id": 140,
+                "name": "斯帕克拉",
+                "element": "地"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 116,
+                "name": "岭川",
+                "element": "地"
+            },
+            {
+                "id": 108,
+                "name": "卡西米拉",
+                "element": "火"
+            }
+        ],
+        "startTime": "2026-06-02T12:00:00+08:00",
+        "endTime": "2026-06-23T10:59:59+08:00"
+    },
+    "10141": {
+        "id": 10141,
+        "type": "character",
+        "name": "命定奇遇",
+        "icon": "tab_gacha_10141",
+        "rateUp5Star": [
+            {
+                "id": 141,
+                "name": "赤霞",
+                "element": "火"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 117,
+                "name": "璟麟",
+                "element": "光"
+            },
+            {
+                "id": 120,
+                "name": "卡娜丝",
+                "element": "风"
+            }
+        ],
+        "startTime": "2026-02-17T12:00:00+08:00",
+        "endTime": "2026-03-10T03:59:59+08:00"
+    },
+    "10143": {
+        "id": 10143,
+        "type": "character",
+        "name": "划破黑暗的银枪",
+        "icon": "tab_gacha_10143",
+        "rateUp5Star": [
+            {
+                "id": 143,
+                "name": "风影",
+                "element": "风"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 123,
+                "name": "杏子",
+                "element": "风"
+            },
+            {
+                "id": 113,
+                "name": "师渺",
+                "element": "水"
+            }
+        ],
+        "startTime": "2026-02-24T12:00:00+08:00",
+        "endTime": "2026-03-17T10:59:59+08:00"
+    },
+    "10144": {
+        "id": 10144,
+        "type": "character",
+        "name": "夜月倾流，闪烁刀影里",
+        "icon": "tab_gacha_10144",
+        "rateUp5Star": [
+            {
+                "id": 144,
+                "name": "千都世",
+                "element": "水"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 117,
+                "name": "璟麟",
+                "element": "光"
+            },
+            {
+                "id": 127,
+                "name": "特丽莎",
+                "element": "水"
+            }
+        ],
+        "startTime": "2025-10-20T04:00:00+08:00",
+        "endTime": "2025-11-11T03:59:59+08:00"
+    },
+    "10145": {
+        "id": 10145,
+        "type": "character",
+        "name": "夜樱尽头暗月沉",
+        "icon": "tab_gacha_10145_lang",
+        "rateUp5Star": [
+            {
+                "id": 145,
+                "name": "乙叶",
+                "element": "暗"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 142,
+                "name": "珂赛特",
+                "element": "暗"
+            },
+            {
+                "id": 150,
+                "name": "菈露",
+                "element": "光"
+            }
+        ],
+        "startTime": "2026-04-16T12:00:00+08:00",
+        "endTime": "2026-05-08T10:59:59+08:00"
+    },
+    "10149": {
+        "id": 10149,
+        "type": "character",
+        "name": "命定奇遇",
+        "icon": "tab_gacha_10149",
+        "rateUp5Star": [
+            {
+                "id": 149,
+                "name": "格芮",
+                "element": "地"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 126,
+                "name": "紫槿",
+                "element": "火"
+            },
+            {
+                "id": 120,
+                "name": "卡娜丝",
+                "element": "风"
+            }
+        ],
+        "startTime": "2025-12-02T12:00:00+08:00",
+        "endTime": "2025-12-23T10:59:59+08:00"
+    },
+    "10155": {
+        "id": 10155,
+        "type": "character",
+        "name": "直抵圆月的超巨浪",
+        "icon": "tab_gacha_10155",
+        "rateUp5Star": [
+            {
+                "id": 155,
+                "name": "希娅",
+                "element": "光"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 107,
+                "name": "缇莉娅",
+                "element": "光"
+            },
+            {
+                "id": 108,
+                "name": "卡西米拉",
+                "element": "火"
+            }
+        ],
+        "startTime": "2025-10-28T12:00:00+08:00",
+        "endTime": "2025-11-18T03:59:59+08:00"
+    },
+    "10156": {
+        "id": 10156,
+        "type": "character",
+        "name": "命定奇遇",
+        "icon": "tab_gacha_10156_lang",
+        "rateUp5Star": [
+            {
+                "id": 156,
+                "name": "小禾",
+                "element": "地"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 127,
+                "name": "特丽莎",
+                "element": "水"
+            },
+            {
+                "id": 118,
+                "name": "科洛妮丝",
+                "element": "暗"
+            }
+        ],
+        "startTime": "2026-03-31T12:00:00+08:00",
+        "endTime": "2026-04-21T03:59:59+08:00"
+    },
+    "10157": {
+        "id": 10157,
+        "type": "character",
+        "name": "追晴逐日的花漫波",
+        "icon": "tab_gacha_10157_lang",
+        "rateUp5Star": [
+            {
+                "id": 157,
+                "name": "花铃",
+                "element": "暗"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 142,
+                "name": "珂赛特",
+                "element": "暗"
+            },
+            {
+                "id": 120,
+                "name": "卡娜丝",
+                "element": "风"
+            }
+        ],
+        "startTime": "2026-08-18T12:00:00+08:00",
+        "endTime": "2026-09-08T10:59:59+08:00"
+    },
+    "10158": {
+        "id": 10158,
+        "type": "character",
+        "name": "圣夜送礼大作战！",
+        "icon": "tab_gacha_10158",
+        "rateUp5Star": [
+            {
+                "id": 158,
+                "name": "菈露（圣夜）",
+                "element": "火"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 126,
+                "name": "紫槿",
+                "element": "火"
+            },
+            {
+                "id": 118,
+                "name": "科洛妮丝",
+                "element": "暗"
+            }
+        ],
+        "startTime": "2025-12-23T12:00:00+08:00",
+        "endTime": "2026-01-13T10:59:59+08:00"
+    },
+    "10159": {
+        "id": 10159,
+        "type": "character",
+        "name": "点滴心语，余温尚存时",
+        "icon": "tab_gacha_10159",
+        "rateUp5Star": [
+            {
+                "id": 159,
+                "name": "科洛妮丝（新春）",
+                "element": "地"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 117,
+                "name": "璟麟",
+                "element": "光"
+            },
+            {
+                "id": 120,
+                "name": "卡娜丝",
+                "element": "风"
+            }
+        ],
+        "startTime": "2026-02-03T12:00:00+08:00",
+        "endTime": "2026-02-24T10:59:59+08:00"
+    },
+    "10160": {
+        "id": 10160,
+        "type": "character",
+        "name": "下水之前别忘热身！",
+        "icon": "tab_gacha_10160_lang",
+        "rateUp5Star": [
+            {
+                "id": 160,
+                "name": "薇洛（盛夏）",
+                "element": "水"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 127,
+                "name": "特丽莎",
+                "element": "水"
+            },
+            {
+                "id": 118,
+                "name": "科洛妮丝",
+                "element": "暗"
+            }
+        ],
+        "startTime": "2026-07-21T12:00:00+08:00",
+        "endTime": "2026-08-11T10:59:59+08:00"
+    },
+    "10162": {
+        "id": 10162,
+        "type": "character",
+        "name": "邂逅源初之剑",
+        "icon": "tab_gacha_10162_lang",
+        "rateUp5Star": [
+            {
+                "id": 162,
+                "name": "尘沙（源初）",
+                "element": "光"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 107,
+                "name": "缇莉娅",
+                "element": "光"
+            },
+            {
+                "id": 116,
+                "name": "岭川",
+                "element": "地"
+            }
+        ],
+        "startTime": "2026-10-20T12:00:00+08:00",
+        "endTime": "2026-11-10T10:59:59+08:00"
+    },
+    "11110": {
+        "id": 11110,
+        "type": "character",
+        "name": "辉映碧玉的理型",
+        "icon": "tab_gacha_11110_lang",
+        "rateUp5Star": [
+            {
+                "id": 110,
+                "name": "翡冷翠",
+                "element": "暗"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 142,
+                "name": "珂赛特",
+                "element": "暗"
+            },
+            {
+                "id": 116,
+                "name": "岭川",
+                "element": "地"
+            }
+        ],
+        "startTime": "2026-10-06T12:00:00+08:00",
+        "endTime": "2026-10-27T10:59:59+08:00"
+    },
+    "11115": {
+        "id": 11115,
+        "type": "character",
+        "name": "乘光而起的星之砂",
+        "icon": "tab_gacha_11115_lang",
+        "rateUp5Star": [
+            {
+                "id": 115,
+                "name": "火垂",
+                "element": "光"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 107,
+                "name": "缇莉娅",
+                "element": "光"
+            },
+            {
+                "id": 116,
+                "name": "岭川",
+                "element": "地"
+            }
+        ],
+        "startTime": "2026-10-27T12:00:00+08:00",
+        "endTime": "2026-11-17T10:59:59+08:00"
+    },
+    "11119": {
+        "id": 11119,
+        "type": "character",
+        "name": "命定奇遇",
+        "icon": "tab_gacha_11119_lang",
+        "rateUp5Star": [
+            {
+                "id": 119,
+                "name": "花原",
+                "element": "风"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 116,
+                "name": "岭川",
+                "element": "地"
+            },
+            {
+                "id": 108,
+                "name": "卡西米拉",
+                "element": "火"
+            }
+        ],
+        "startTime": "2026-06-16T12:00:00+08:00",
+        "endTime": "2026-07-07T03:59:59+08:00"
+    },
+    "11133": {
+        "id": 11133,
+        "type": "character",
+        "name": "摇曳轻风纯情香",
+        "icon": "tab_gacha_11133_lang",
+        "rateUp5Star": [
+            {
+                "id": 133,
+                "name": "夏花",
+                "element": "风"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 123,
+                "name": "杏子",
+                "element": "风"
+            },
+            {
+                "id": 108,
+                "name": "卡西米拉",
+                "element": "火"
+            }
+        ],
+        "startTime": "2026-08-04T12:00:00+08:00",
+        "endTime": "2026-08-25T10:59:59+08:00"
+    },
+    "11134": {
+        "id": 11134,
+        "type": "character",
+        "name": "雪融时分新芽绽",
+        "icon": "tab_gacha_11134_lang",
+        "rateUp5Star": [
+            {
+                "id": 134,
+                "name": "冬香",
+                "element": "火"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 126,
+                "name": "紫槿",
+                "element": "火"
+            },
+            {
+                "id": 120,
+                "name": "卡娜丝",
+                "element": "风"
+            }
+        ],
+        "startTime": "2026-09-01T12:00:00+08:00",
+        "endTime": "2026-09-22T10:59:59+08:00"
+    },
+    "11141": {
+        "id": 11141,
+        "type": "character",
+        "name": "命定奇遇",
+        "icon": "tab_gacha_11141_lang",
+        "rateUp5Star": [
+            {
+                "id": 141,
+                "name": "赤霞",
+                "element": "火"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 126,
+                "name": "紫槿",
+                "element": "火"
+            },
+            {
+                "id": 111,
+                "name": "鸢尾",
+                "element": "水"
+            }
+        ],
+        "startTime": "2026-07-14T12:00:00+08:00",
+        "endTime": "2026-08-04T03:59:59+08:00"
+    },
+    "11144": {
+        "id": 11144,
+        "type": "character",
+        "name": "夜月倾流，闪烁刀影里",
+        "icon": "tab_gacha_11144_lang",
+        "rateUp5Star": [
+            {
+                "id": 144,
+                "name": "千都世",
+                "element": "水"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 117,
+                "name": "璟麟",
+                "element": "光"
+            },
+            {
+                "id": 127,
+                "name": "特丽莎",
+                "element": "水"
+            }
+        ],
+        "startTime": "2026-04-30T12:00:00+08:00",
+        "endTime": "2026-05-19T03:59:59+08:00"
+    },
+    "11155": {
+        "id": 11155,
+        "type": "character",
+        "name": "直抵圆月的超巨浪",
+        "icon": "tab_gacha_11155_lang",
+        "rateUp5Star": [
+            {
+                "id": 155,
+                "name": "希娅",
+                "element": "光"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 107,
+                "name": "缇莉娅",
+                "element": "光"
+            },
+            {
+                "id": 108,
+                "name": "卡西米拉",
+                "element": "火"
+            }
+        ],
+        "startTime": "2026-05-26T12:00:00+08:00",
+        "endTime": "2026-06-16T03:59:59+08:00"
+    },
+    "20110": {
+        "id": 20110,
+        "type": "disc",
+        "name": "微醺茶香，藤花幽梦",
+        "icon": "tab_gacha_20110",
+        "rateUp5Star": [
+            {
+                "id": 214004,
+                "name": "仙踪良梦",
+                "element": "暗"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213012,
+                "name": "问候星空",
+                "element": "暗"
+            },
+            {
+                "id": 213013,
+                "name": "秋日絮语",
+                "element": "地"
+            }
+        ],
+        "startTime": "2026-01-13T12:00:00+08:00",
+        "endTime": "2026-02-03T10:59:59+08:00"
+    },
+    "20114": {
+        "id": 20114,
+        "type": "disc",
+        "name": "我已喵准你的心",
+        "icon": "tab_gacha_20114_lang",
+        "rateUp5Star": [
+            {
+                "id": 214029,
+                "name": "猫之珍藏",
+                "element": "火"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213016,
+                "name": "樊笼蔷薇",
+                "element": "火"
+            },
+            {
+                "id": 213010,
+                "name": "水蒸汽症候群",
+                "element": "水"
+            }
+        ],
+        "startTime": "2026-06-30T12:00:00+08:00",
+        "endTime": "2026-07-21T10:59:59+08:00"
+    },
+    "20115": {
+        "id": 20115,
+        "type": "disc",
+        "name": "若能触及那片繁星",
+        "icon": "tab_gacha_20115_lang",
+        "rateUp5Star": [
+            {
+                "id": 214051,
+                "name": "星之所向",
+                "element": "光"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213006,
+                "name": "晚安",
+                "element": "光"
+            },
+            {
+                "id": 213014,
+                "name": "骑士的铁匠",
+                "element": "地"
+            }
+        ],
+        "startTime": "2026-05-14T12:00:00+08:00",
+        "endTime": "2026-06-02T10:59:59+08:00"
+    },
+    "20119": {
+        "id": 20119,
+        "type": "disc",
+        "name": "心弦定音",
+        "icon": "tab_gacha_20119",
+        "rateUp5Star": [
+            {
+                "id": 214028,
+                "name": "白日花园",
+                "element": "风"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213008,
+                "name": "小憩片刻",
+                "element": "风"
+            },
+            {
+                "id": 213005,
+                "name": "★~嘭嘭少女~★",
+                "element": "光"
+            }
+        ],
+        "startTime": "2025-11-11T12:00:00+08:00",
+        "endTime": "2025-12-02T03:59:59+08:00"
+    },
+    "20125": {
+        "id": 20125,
+        "type": "disc",
+        "name": "心弦定音",
+        "icon": "tab_gacha_20125",
+        "rateUp5Star": [
+            {
+                "id": 214005,
+                "name": "晴之花",
+                "element": "水"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213010,
+                "name": "水蒸汽症候群",
+                "element": "水"
+            },
+            {
+                "id": 213011,
+                "name": "喵律动",
+                "element": "暗"
+            }
+        ],
+        "startTime": "2025-12-30T12:00:00+08:00",
+        "endTime": "2026-01-20T03:59:59+08:00"
+    },
+    "20130": {
+        "id": 20130,
+        "type": "disc",
+        "name": "随愿启航的幸福气球",
+        "icon": "tab_gacha_20130_lang",
+        "rateUp5Star": [
+            {
+                "id": 214008,
+                "name": "飞越青空",
+                "element": "水"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213010,
+                "name": "水蒸汽症候群",
+                "element": "水"
+            },
+            {
+                "id": 213011,
+                "name": "喵律动",
+                "element": "暗"
+            }
+        ],
+        "startTime": "2026-03-17T12:00:00+08:00",
+        "endTime": "2026-04-07T10:59:59+08:00"
+    },
+    "20132": {
+        "id": 20132,
+        "type": "disc",
+        "name": "心弦定音",
+        "icon": "tab_gacha_20132",
+        "rateUp5Star": [
+            {
+                "id": 214007,
+                "name": "午夜，堕天使",
+                "element": "光"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213017,
+                "name": "★~转转人生~★",
+                "element": "光"
+            },
+            {
+                "id": 213018,
+                "name": "饮料采购日",
+                "element": "水"
+            }
+        ],
+        "startTime": "2026-03-10T12:00:00+08:00",
+        "endTime": "2026-03-31T03:59:59+08:00"
+    },
+    "20133": {
+        "id": 20133,
+        "type": "disc",
+        "name": "午后微光、共入翠梦",
+        "icon": "tab_gacha_20133",
+        "rateUp5Star": [
+            {
+                "id": 214015,
+                "name": "鹿鸣",
+                "element": "风"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213007,
+                "name": "翡翠隙境",
+                "element": "风"
+            },
+            {
+                "id": 213003,
+                "name": "热夜的结束",
+                "element": "火"
+            }
+        ],
+        "startTime": "2025-12-09T12:00:00+08:00",
+        "endTime": "2025-12-30T03:59:59+08:00"
+    },
+    "20134": {
+        "id": 20134,
+        "type": "disc",
+        "name": "绚丽夜空、烟花绽放",
+        "icon": "tab_gacha_20134",
+        "rateUp5Star": [
+            {
+                "id": 214017,
+                "name": "花火",
+                "element": "火"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213016,
+                "name": "樊笼蔷薇",
+                "element": "火"
+            },
+            {
+                "id": 213015,
+                "name": "未闻芳名",
+                "element": "风"
+            }
+        ],
+        "startTime": "2025-11-18T12:00:00+08:00",
+        "endTime": "2025-12-09T10:59:59+08:00"
+    },
+    "20135": {
+        "id": 20135,
+        "type": "disc",
+        "name": "心弦定音",
+        "icon": "tab_gacha_20135",
+        "rateUp5Star": [
+            {
+                "id": 214006,
+                "name": "魔女的秋千",
+                "element": "暗"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213019,
+                "name": "妄语",
+                "element": "暗"
+            },
+            {
+                "id": 213014,
+                "name": "骑士的铁匠",
+                "element": "地"
+            }
+        ],
+        "startTime": "2026-01-27T12:00:00+08:00",
+        "endTime": "2026-02-17T03:59:59+08:00"
+    },
+    "20137": {
+        "id": 20137,
+        "type": "disc",
+        "name": "飞向梦寐以求的世界",
+        "icon": "tab_gacha_20137_lang",
+        "rateUp5Star": [
+            {
+                "id": 214059,
+                "name": "飞吧，笼中鸟",
+                "element": "风"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213007,
+                "name": "翡翠隙境",
+                "element": "风"
+            },
+            {
+                "id": 213010,
+                "name": "水蒸汽症候群",
+                "element": "水"
+            }
+        ],
+        "startTime": "2026-09-08T12:00:00+08:00",
+        "endTime": "2026-09-29T10:59:59+08:00"
+    },
+    "20139": {
+        "id": 20139,
+        "type": "disc",
+        "name": "空白的稚梦",
+        "icon": "tab_gacha_20139_lang",
+        "rateUp5Star": [
+            {
+                "id": 214061,
+                "name": "睡前童话",
+                "element": "水"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213009,
+                "name": "“雨中”曲",
+                "element": "水"
+            },
+            {
+                "id": 213017,
+                "name": "★~转转人生~★",
+                "element": "光"
+            }
+        ],
+        "startTime": "2026-09-29T12:00:00+08:00",
+        "endTime": "2026-10-20T10:59:59+08:00"
+    },
+    "20140": {
+        "id": 20140,
+        "type": "disc",
+        "name": "奇思妙想，寄于手作",
+        "icon": "tab_gacha_20140_lang",
+        "rateUp5Star": [
+            {
+                "id": 214054,
+                "name": "微小的乐园",
+                "element": "地"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213013,
+                "name": "秋日絮语",
+                "element": "地"
+            },
+            {
+                "id": 213003,
+                "name": "热夜的结束",
+                "element": "火"
+            }
+        ],
+        "startTime": "2026-06-02T12:00:00+08:00",
+        "endTime": "2026-06-23T10:59:59+08:00"
+    },
+    "20141": {
+        "id": 20141,
+        "type": "disc",
+        "name": "心弦定音",
+        "icon": "tab_gacha_20141",
+        "rateUp5Star": [
+            {
+                "id": 214027,
+                "name": "龙飞凤舞",
+                "element": "火"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213004,
+                "name": "双月怪盗",
+                "element": "火"
+            },
+            {
+                "id": 213015,
+                "name": "未闻芳名",
+                "element": "风"
+            }
+        ],
+        "startTime": "2026-02-17T12:00:00+08:00",
+        "endTime": "2026-03-10T03:59:59+08:00"
+    },
+    "20143": {
+        "id": 20143,
+        "type": "disc",
+        "name": "春日暖阳梦微醺",
+        "icon": "tab_gacha_20143",
+        "rateUp5Star": [
+            {
+                "id": 214016,
+                "name": "春日纪事",
+                "element": "风"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213007,
+                "name": "翡翠隙境",
+                "element": "风"
+            },
+            {
+                "id": 213009,
+                "name": "“雨中”曲",
+                "element": "水"
+            }
+        ],
+        "startTime": "2026-02-24T12:00:00+08:00",
+        "endTime": "2026-03-17T10:59:59+08:00"
+    },
+    "20144": {
+        "id": 20144,
+        "type": "disc",
+        "name": "浮月倒映清潭上",
+        "icon": "tab_gacha_20144",
+        "rateUp5Star": [
+            {
+                "id": 214026,
+                "name": "潋滟故池水",
+                "element": "水"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213009,
+                "name": "“雨中”曲",
+                "element": "水"
+            },
+            {
+                "id": 213005,
+                "name": "★~嘭嘭少女~★",
+                "element": "光"
+            }
+        ],
+        "startTime": "2025-10-20T04:00:00+08:00",
+        "endTime": "2025-11-11T03:59:59+08:00"
+    },
+    "20145": {
+        "id": 20145,
+        "type": "disc",
+        "name": "百合芬香伴烟起",
+        "icon": "tab_gacha_20145_lang",
+        "rateUp5Star": [
+            {
+                "id": 214045,
+                "name": "繁花幻梦",
+                "element": "暗"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213012,
+                "name": "问候星空",
+                "element": "暗"
+            },
+            {
+                "id": 213005,
+                "name": "★~嘭嘭少女~★",
+                "element": "光"
+            }
+        ],
+        "startTime": "2026-04-16T12:00:00+08:00",
+        "endTime": "2026-05-08T10:59:59+08:00"
+    },
+    "20149": {
+        "id": 20149,
+        "type": "disc",
+        "name": "心弦定音",
+        "icon": "tab_gacha_20149",
+        "rateUp5Star": [
+            {
+                "id": 214036,
+                "name": "迷途的朝圣者",
+                "element": "地"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213020,
+                "name": "闪灵",
+                "element": "地"
+            },
+            {
+                "id": 213004,
+                "name": "双月怪盗",
+                "element": "火"
+            }
+        ],
+        "startTime": "2025-12-02T12:00:00+08:00",
+        "endTime": "2025-12-23T10:59:59+08:00"
+    },
+    "20155": {
+        "id": 20155,
+        "type": "disc",
+        "name": "海天共一色",
+        "icon": "tab_gacha_20155",
+        "rateUp5Star": [
+            {
+                "id": 214038,
+                "name": "波光漫游",
+                "element": "光"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213004,
+                "name": "双月怪盗",
+                "element": "火"
+            },
+            {
+                "id": 213006,
+                "name": "晚安",
+                "element": "光"
+            }
+        ],
+        "startTime": "2025-10-28T12:00:00+08:00",
+        "endTime": "2025-11-18T03:59:59+08:00"
+    },
+    "20156": {
+        "id": 20156,
+        "type": "disc",
+        "name": "心弦定音",
+        "icon": "tab_gacha_20156_lang",
+        "rateUp5Star": [
+            {
+                "id": 214037,
+                "name": "抓住传说",
+                "element": "地"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213009,
+                "name": "“雨中”曲",
+                "element": "水"
+            },
+            {
+                "id": 213013,
+                "name": "秋日絮语",
+                "element": "地"
+            }
+        ],
+        "startTime": "2026-03-31T12:00:00+08:00",
+        "endTime": "2026-04-21T03:59:59+08:00"
+    },
+    "20157": {
+        "id": 20157,
+        "type": "disc",
+        "name": "碧浪晕七彩",
+        "icon": "tab_gacha_20157_lang",
+        "rateUp5Star": [
+            {
+                "id": 214057,
+                "name": "伴我航行",
+                "element": "暗"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213019,
+                "name": "妄语",
+                "element": "暗"
+            },
+            {
+                "id": 213008,
+                "name": "小憩片刻",
+                "element": "风"
+            }
+        ],
+        "startTime": "2026-08-18T12:00:00+08:00",
+        "endTime": "2026-09-08T10:59:59+08:00"
+    },
+    "20158": {
+        "id": 20158,
+        "type": "disc",
+        "name": "薯条之国的颂歌",
+        "icon": "tab_gacha_20158",
+        "rateUp5Star": [
+            {
+                "id": 214048,
+                "name": "雪夜惊喜",
+                "element": "火"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213016,
+                "name": "樊笼蔷薇",
+                "element": "火"
+            },
+            {
+                "id": 213019,
+                "name": "妄语",
+                "element": "暗"
+            }
+        ],
+        "startTime": "2025-12-23T12:00:00+08:00",
+        "endTime": "2026-01-13T10:59:59+08:00"
+    },
+    "20159": {
+        "id": 20159,
+        "type": "disc",
+        "name": "初醒眷恋 如梦之影",
+        "icon": "tab_gacha_20159",
+        "rateUp5Star": [
+            {
+                "id": 214044,
+                "name": "罗帷春染岁朝新",
+                "element": "地"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213020,
+                "name": "闪灵",
+                "element": "地"
+            },
+            {
+                "id": 213008,
+                "name": "小憩片刻",
+                "element": "风"
+            }
+        ],
+        "startTime": "2026-02-03T12:00:00+08:00",
+        "endTime": "2026-02-24T10:59:59+08:00"
+    },
+    "20160": {
+        "id": 20160,
+        "type": "disc",
+        "name": "波光荡漾，轻触的指尖",
+        "icon": "tab_gacha_20160_lang",
+        "rateUp5Star": [
+            {
+                "id": 214055,
+                "name": "浮光掠影",
+                "element": "水"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213018,
+                "name": "饮料采购日",
+                "element": "水"
+            },
+            {
+                "id": 213011,
+                "name": "喵律动",
+                "element": "暗"
+            }
+        ],
+        "startTime": "2026-07-21T12:00:00+08:00",
+        "endTime": "2026-08-11T10:59:59+08:00"
+    },
+    "20162": {
+        "id": 20162,
+        "type": "disc",
+        "name": "心意凝于剑尖",
+        "icon": "tab_gacha_20162_lang",
+        "rateUp5Star": [
+            {
+                "id": 214066,
+                "name": "指引前路的启明星",
+                "element": "光"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213005,
+                "name": "★~嘭嘭少女~★",
+                "element": "光"
+            },
+            {
+                "id": 213020,
+                "name": "闪灵",
+                "element": "地"
+            }
+        ],
+        "startTime": "2026-10-20T12:00:00+08:00",
+        "endTime": "2026-11-10T10:59:59+08:00"
+    },
+    "21110": {
+        "id": 21110,
+        "type": "disc",
+        "name": "微醺茶香，藤花幽梦",
+        "icon": "tab_gacha_21110_lang",
+        "rateUp5Star": [
+            {
+                "id": 214004,
+                "name": "仙踪良梦",
+                "element": "暗"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213012,
+                "name": "问候星空",
+                "element": "暗"
+            },
+            {
+                "id": 213013,
+                "name": "秋日絮语",
+                "element": "地"
+            }
+        ],
+        "startTime": "2026-10-06T12:00:00+08:00",
+        "endTime": "2026-10-27T10:59:59+08:00"
+    },
+    "21115": {
+        "id": 21115,
+        "type": "disc",
+        "name": "若能触及那片繁星",
+        "icon": "tab_gacha_21115_lang",
+        "rateUp5Star": [
+            {
+                "id": 214051,
+                "name": "星之所向",
+                "element": "光"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213006,
+                "name": "晚安",
+                "element": "光"
+            },
+            {
+                "id": 213014,
+                "name": "骑士的铁匠",
+                "element": "地"
+            }
+        ],
+        "startTime": "2026-10-27T12:00:00+08:00",
+        "endTime": "2026-11-17T10:59:59+08:00"
+    },
+    "21119": {
+        "id": 21119,
+        "type": "disc",
+        "name": "心弦定音",
+        "icon": "tab_gacha_21119_lang",
+        "rateUp5Star": [
+            {
+                "id": 214028,
+                "name": "白日花园",
+                "element": "风"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213014,
+                "name": "骑士的铁匠",
+                "element": "地"
+            },
+            {
+                "id": 213008,
+                "name": "小憩片刻",
+                "element": "风"
+            }
+        ],
+        "startTime": "2026-06-16T12:00:00+08:00",
+        "endTime": "2026-07-07T03:59:59+08:00"
+    },
+    "21133": {
+        "id": 21133,
+        "type": "disc",
+        "name": "午后微光、共入翠梦",
+        "icon": "tab_gacha_21133_lang",
+        "rateUp5Star": [
+            {
+                "id": 214015,
+                "name": "鹿鸣",
+                "element": "风"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213007,
+                "name": "翡翠隙境",
+                "element": "风"
+            },
+            {
+                "id": 213003,
+                "name": "热夜的结束",
+                "element": "火"
+            }
+        ],
+        "startTime": "2026-08-04T12:00:00+08:00",
+        "endTime": "2026-08-25T10:59:59+08:00"
+    },
+    "21134": {
+        "id": 21134,
+        "type": "disc",
+        "name": "绚丽夜空、烟花绽放",
+        "icon": "tab_gacha_21134_lang",
+        "rateUp5Star": [
+            {
+                "id": 214017,
+                "name": "花火",
+                "element": "火"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213016,
+                "name": "樊笼蔷薇",
+                "element": "火"
+            },
+            {
+                "id": 213015,
+                "name": "未闻芳名",
+                "element": "风"
+            }
+        ],
+        "startTime": "2026-09-01T12:00:00+08:00",
+        "endTime": "2026-09-22T10:59:59+08:00"
+    },
+    "21141": {
+        "id": 21141,
+        "type": "disc",
+        "name": "心弦定音",
+        "icon": "tab_gacha_21141_lang",
+        "rateUp5Star": [
+            {
+                "id": 214027,
+                "name": "龙飞凤舞",
+                "element": "火"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213004,
+                "name": "双月怪盗",
+                "element": "火"
+            },
+            {
+                "id": 213009,
+                "name": "“雨中”曲",
+                "element": "水"
+            }
+        ],
+        "startTime": "2026-07-14T12:00:00+08:00",
+        "endTime": "2026-08-04T03:59:59+08:00"
+    },
+    "21144": {
+        "id": 21144,
+        "type": "disc",
+        "name": "浮月倒映清潭上",
+        "icon": "tab_gacha_21144_lang",
+        "rateUp5Star": [
+            {
+                "id": 214026,
+                "name": "潋滟故池水",
+                "element": "水"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213009,
+                "name": "“雨中”曲",
+                "element": "水"
+            },
+            {
+                "id": 213005,
+                "name": "★~嘭嘭少女~★",
+                "element": "光"
+            }
+        ],
+        "startTime": "2026-04-30T12:00:00+08:00",
+        "endTime": "2026-05-19T03:59:59+08:00"
+    },
+    "21155": {
+        "id": 21155,
+        "type": "disc",
+        "name": "海天共一色",
+        "icon": "tab_gacha_21155_lang",
+        "rateUp5Star": [
+            {
+                "id": 214038,
+                "name": "波光漫游",
+                "element": "光"
+            }
+        ],
+        "rateUp4Star": [
+            {
+                "id": 213004,
+                "name": "双月怪盗",
+                "element": "火"
+            },
+            {
+                "id": 213006,
+                "name": "晚安",
+                "element": "光"
+            }
+        ],
+        "startTime": "2026-05-26T12:00:00+08:00",
+        "endTime": "2026-06-16T03:59:59+08:00"
+    }
+}
