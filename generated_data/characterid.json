@@ -143,6 +143,15 @@
     "twName": "卡娜絲",
     "ver": ""
   },
+  "121": {
+    "id": 121,
+    "cnName": "",
+    "enName": "",
+    "jpName": "",
+    "krName": "",
+    "twName": "",
+    "ver": "2.2.0"
+  },
   "123": {
     "id": 123,
     "cnName": "杏子",
@@ -451,11 +460,11 @@
   },
   "161": {
     "id": 161,
-    "cnName": "",
-    "enName": "",
-    "jpName": "",
-    "krName": "",
-    "twName": "",
+    "cnName": "优叶",
+    "enName": "Leafia",
+    "jpName": "スグハ",
+    "krName": "스구하",
+    "twName": "優葉",
     "ver": "2.1.0"
   },
   "162": {
@@ -502,5 +511,14 @@
     "krName": "",
     "twName": "",
     "ver": "2.3.0"
+  },
+  "177": {
+    "id": 177,
+    "cnName": "",
+    "enName": "",
+    "jpName": "",
+    "krName": "",
+    "twName": "",
+    "ver": "2.2.0"
   }
 }

@@ -551,6 +551,14 @@
         "type": "Char",
         "rarity": "SSR"
     },
+    "161": {
+        "id": 161,
+        "name": "优叶",
+        "desc": "邀请「优叶」加入队伍的凭证",
+        "literary": "直面无人踏足的空白，绘下第一条边界线。",
+        "type": "Char",
+        "rarity": "SSR"
+    },
     "162": {
         "id": 162,
         "name": "尘沙（源初）",
@@ -1052,6 +1060,14 @@
         "name": "薇洛（盛夏）的心钥",
         "desc": "用于激活旅人的天赋。",
         "literary": "阳光与海滩，那是属于她的假日。",
+        "type": "CharShard",
+        "rarity": "SSR"
+    },
+    "1610": {
+        "id": 1610,
+        "name": "优叶的心钥",
+        "desc": "用于激活旅人的天赋。",
+        "literary": "直面无人踏足的空白，绘下第一条边界线。",
         "type": "CharShard",
         "rarity": "SSR"
     },
@@ -1759,6 +1775,14 @@
         "type": "CharacterSkin",
         "rarity": "SSR"
     },
+    "14303": {
+        "id": 14303,
+        "name": "白银之风，驰骋大海",
+        "desc": "解锁风影专属形象「白银之风，驰骋大海」的凭证！",
+        "literary": "准备好出发了吗？\n——是的，船长！\n太小声咯？\n——是的，风影船长！",
+        "type": "CharacterSkin",
+        "rarity": "SSR"
+    },
     "14401": {
         "id": 14401,
         "name": "千都世-基础形象",
@@ -1978,6 +2002,22 @@
     "16002": {
         "id": 16002,
         "name": "薇洛（盛夏）-觉醒形象",
+        "desc": "",
+        "literary": "",
+        "type": "CharacterSkin",
+        "rarity": "SSR"
+    },
+    "16101": {
+        "id": 16101,
+        "name": "优叶-基础形象",
+        "desc": "",
+        "literary": "",
+        "type": "CharacterSkin",
+        "rarity": "SSR"
+    },
+    "16102": {
+        "id": 16102,
+        "name": "优叶-觉醒形象",
         "desc": "",
         "literary": "",
         "type": "CharacterSkin",
@@ -2975,6 +3015,14 @@
         "type": "Item",
         "rarity": "SR"
     },
+    "71030": {
+        "id": 71030,
+        "name": "前缀头衔:远海",
+        "desc": "用于解锁头衔：远海",
+        "literary": "记录着神奇词语的小卡片。",
+        "type": "Item",
+        "rarity": "SR"
+    },
     "72001": {
         "id": 72001,
         "name": "后缀头衔:魔王",
@@ -3207,6 +3255,14 @@
         "type": "Item",
         "rarity": "SR"
     },
+    "72030": {
+        "id": 72030,
+        "name": "后缀头衔:领航者",
+        "desc": "用于解锁头衔：领航者",
+        "literary": "记录着神奇词语的小卡片。",
+        "type": "Item",
+        "rarity": "SR"
+    },
     "73101": {
         "id": 73101,
         "name": "鱿鱼米饼",
@@ -3340,6 +3396,14 @@
         "name": "古铜币",
         "desc": "「完璧之庭 · 微尘破晓」活动中积极参与获得的代币，可用于在活动商店中兑换道具！",
         "literary": "据史料记载，早在渊海星融公司创立前便流通于大陆的古币，现今只有少数几枚珍藏于埃摩博物馆内。",
+        "type": "Item",
+        "rarity": "SR"
+    },
+    "73118": {
+        "id": 73118,
+        "name": "指南针",
+        "desc": "「执笔展卷，勾勒未名之境」活动中积极参与获得的代币，可用于在活动商店中兑换道具！",
+        "literary": "循着海风与星辉校准方向，穿越风暴与迷雾，为迷航者指出归港的航线。",
         "type": "Item",
         "rarity": "SR"
     },
@@ -6063,6 +6127,14 @@
         "type": "Honor",
         "rarity": "SSR"
     },
+    "111012": {
+        "id": 111012,
+        "name": "穿越时空的思念",
+        "desc": "解锁荣誉称号「穿越时空的思念」",
+        "literary": "魔王，欢迎回家。",
+        "type": "Honor",
+        "rarity": "SSR"
+    },
     "112103": {
         "id": 112103,
         "name": "寻猫达人",
@@ -6380,6 +6452,14 @@
         "name": "海滩安全顾问",
         "desc": "解锁荣誉称号「海滩安全顾问」",
         "literary": "与旅人薇洛（盛夏）友谊的证明！",
+        "type": "Honor",
+        "rarity": "SSR"
+    },
+    "112161": {
+        "id": 112161,
+        "name": "引航者",
+        "desc": "解锁荣誉称号「引航者」",
+        "literary": "与旅人优叶友谊的证明！",
         "type": "Honor",
         "rarity": "SSR"
     },
@@ -6815,6 +6895,14 @@
         "type": "Honor",
         "rarity": "SSR"
     },
+    "116018": {
+        "id": 116018,
+        "name": "执笔展卷，勾勒未名之境",
+        "desc": "解锁荣誉称号「执笔展卷，勾勒未名之境」",
+        "literary": "在「执笔展卷，勾勒未名之境」活动中收获满满的证明！",
+        "type": "Honor",
+        "rarity": "SSR"
+    },
     "117001": {
         "id": 117001,
         "name": "第1赛季 决战终焉·王牌",
@@ -6980,6 +7068,30 @@
         "name": "第7赛季 决战终焉·精英",
         "desc": "解锁荣誉称号「第7赛季 决战终焉·精英」",
         "literary": "在「终焉绝响」第7赛季中顽强奋战，获得“精英”荣誉的证明！",
+        "type": "Honor",
+        "rarity": "SSR"
+    },
+    "117071": {
+        "id": 117071,
+        "name": "第8赛季 决战终焉·王牌",
+        "desc": "解锁荣誉称号「第8赛季 决战终焉·王牌」",
+        "literary": "在「终焉绝响」第8赛季中顽强奋战，获得“王牌”荣誉的证明！",
+        "type": "Honor",
+        "rarity": "SSR"
+    },
+    "117072": {
+        "id": 117072,
+        "name": "第8赛季 决战终焉·宗师",
+        "desc": "解锁荣誉称号「第8赛季 决战终焉·宗师」",
+        "literary": "在「终焉绝响」第8赛季中顽强奋战，获得“宗师”荣誉的证明！",
+        "type": "Honor",
+        "rarity": "SSR"
+    },
+    "117073": {
+        "id": 117073,
+        "name": "第8赛季 决战终焉·精英",
+        "desc": "解锁荣誉称号「第8赛季 决战终焉·精英」",
+        "literary": "在「终焉绝响」第8赛季中顽强奋战，获得“精英”荣誉的证明！",
         "type": "Honor",
         "rarity": "SSR"
     },
@@ -7316,6 +7428,30 @@
         "name": "第14赛季 狩猎专家·精英",
         "desc": "解锁荣誉称号「第14赛季 狩猎专家·精英」",
         "literary": "在「联合讨伐」第14赛季中大放异彩，获得“精英”荣誉的证明！",
+        "type": "Honor",
+        "rarity": "SR"
+    },
+    "118141": {
+        "id": 118141,
+        "name": "第15赛季 狩猎专家·王牌",
+        "desc": "解锁荣誉称号「第15赛季 狩猎专家·王牌」",
+        "literary": "在「联合讨伐」第15赛季中大放异彩，获得“王牌”荣誉的证明！",
+        "type": "Honor",
+        "rarity": "SSR"
+    },
+    "118142": {
+        "id": 118142,
+        "name": "第15赛季 狩猎专家·宗师",
+        "desc": "解锁荣誉称号「第15赛季 狩猎专家·宗师」",
+        "literary": "在「联合讨伐」第15赛季中大放异彩，获得“宗师”荣誉的证明！",
+        "type": "Honor",
+        "rarity": "SSR"
+    },
+    "118143": {
+        "id": 118143,
+        "name": "第15赛季 狩猎专家·精英",
+        "desc": "解锁荣誉称号「第15赛季 狩猎专家·精英」",
+        "literary": "在「联合讨伐」第15赛季中大放异彩，获得“精英”荣誉的证明！",
         "type": "Honor",
         "rarity": "SR"
     },
@@ -8679,6 +8815,22 @@
         "type": "Disc",
         "rarity": "SSR"
     },
+    "214068": {
+        "id": 214068,
+        "name": "帐幕下的酣梦",
+        "desc": "",
+        "literary": "跨过高山，渡过远海。\u000b世界有尽头，而梦却无限。\u000b将梦想延伸，踏上通往未来的路。",
+        "type": "Disc",
+        "rarity": "SSR"
+    },
+    "214069": {
+        "id": 214069,
+        "name": "紧急救援",
+        "desc": "",
+        "literary": "汹涌的热浪扑面而来，\u000b窒息、压迫、恐惧，它们似是凝成了一只巨兽，\u000b带着吞噬一切的决绝紧紧追赶着所有人。\u000b面前的身影，隔绝出一片冷静的空间——\n别回头，只管往前看。",
+        "type": "Disc",
+        "rarity": "SSR"
+    },
     "221001": {
         "id": 221001,
         "name": "朝霭曲调",
@@ -9508,6 +9660,22 @@
         "name": "永恒的闪耀曲调",
         "desc": "特定秘纹突破所需的素材",
         "literary": "那是坠入另一段长夜的故事。\u000b在一切的规则尚未成型之前，\u000b魔法成为了主宰万物的权柄。\u000b生命在压迫下野蛮生长，\u000b自由于狭缝中苟延残喘。\u000b不甘于现状的人，试图反抗命运的人，\u000b个体们的意志会在漫长的黑夜里闪耀，\u000b唯有知晓全部的人见证了一切。",
+        "type": "DiscLimitBreak",
+        "rarity": "SSR"
+    },
+    "224068": {
+        "id": 224068,
+        "name": "帐幕下的酣梦曲调",
+        "desc": "特定秘纹突破所需的素材",
+        "literary": "跨过高山，渡过远海。\u000b世界有尽头，而梦却无限。\u000b将梦想延伸，踏上通往未来的路。",
+        "type": "DiscLimitBreak",
+        "rarity": "SSR"
+    },
+    "224069": {
+        "id": 224069,
+        "name": "紧急救援曲调",
+        "desc": "特定秘纹突破所需的素材",
+        "literary": "汹涌的热浪扑面而来，\u000b窒息、压迫、恐惧，它们似是凝成了一只巨兽，\u000b带着吞噬一切的决绝紧紧追赶着所有人。\u000b面前的身影，隔绝出一片冷静的空间——\n别回头，只管往前看。",
         "type": "DiscLimitBreak",
         "rarity": "SSR"
     },
@@ -18855,6 +19023,238 @@
         "type": "Potential",
         "rarity": "SR"
     },
+    "516101": {
+        "id": 516101,
+        "name": "结晶超频",
+        "desc": "",
+        "literary": "",
+        "type": "SpecificPotential",
+        "rarity": "SSR"
+    },
+    "516102": {
+        "id": 516102,
+        "name": "集束贯通",
+        "desc": "",
+        "literary": "",
+        "type": "SpecificPotential",
+        "rarity": "SSR"
+    },
+    "516103": {
+        "id": 516103,
+        "name": "阵地回响",
+        "desc": "",
+        "literary": "",
+        "type": "SpecificPotential",
+        "rarity": "SSR"
+    },
+    "516104": {
+        "id": 516104,
+        "name": "阵地强袭",
+        "desc": "",
+        "literary": "",
+        "type": "SpecificPotential",
+        "rarity": "SSR"
+    },
+    "516105": {
+        "id": 516105,
+        "name": "地伤增幅",
+        "desc": "",
+        "literary": "",
+        "type": "Potential",
+        "rarity": "SR"
+    },
+    "516106": {
+        "id": 516106,
+        "name": "地印共振",
+        "desc": "",
+        "literary": "",
+        "type": "Potential",
+        "rarity": "SR"
+    },
+    "516107": {
+        "id": 516107,
+        "name": "标点过载",
+        "desc": "",
+        "literary": "",
+        "type": "Potential",
+        "rarity": "SSR"
+    },
+    "516108": {
+        "id": 516108,
+        "name": "观测蚀域",
+        "desc": "",
+        "literary": "",
+        "type": "Potential",
+        "rarity": "SR"
+    },
+    "516109": {
+        "id": 516109,
+        "name": "测域增幅",
+        "desc": "",
+        "literary": "",
+        "type": "Potential",
+        "rarity": "SR"
+    },
+    "516110": {
+        "id": 516110,
+        "name": "观测联阵",
+        "desc": "",
+        "literary": "",
+        "type": "Potential",
+        "rarity": "SSR"
+    },
+    "516111": {
+        "id": 516111,
+        "name": "机动增幅",
+        "desc": "",
+        "literary": "",
+        "type": "Potential",
+        "rarity": "SR"
+    },
+    "516112": {
+        "id": 516112,
+        "name": "地印觉醒",
+        "desc": "",
+        "literary": "",
+        "type": "Potential",
+        "rarity": "SR"
+    },
+    "516113": {
+        "id": 516113,
+        "name": "地脉协同",
+        "desc": "",
+        "literary": "",
+        "type": "Potential",
+        "rarity": "SSR"
+    },
+    "516121": {
+        "id": 516121,
+        "name": "战术联绘",
+        "desc": "",
+        "literary": "",
+        "type": "SpecificPotential",
+        "rarity": "SSR"
+    },
+    "516122": {
+        "id": 516122,
+        "name": "观测迭代",
+        "desc": "",
+        "literary": "",
+        "type": "SpecificPotential",
+        "rarity": "SSR"
+    },
+    "516123": {
+        "id": 516123,
+        "name": "先导标定",
+        "desc": "",
+        "literary": "",
+        "type": "SpecificPotential",
+        "rarity": "SSR"
+    },
+    "516124": {
+        "id": 516124,
+        "name": "标定引爆",
+        "desc": "",
+        "literary": "",
+        "type": "SpecificPotential",
+        "rarity": "SSR"
+    },
+    "516125": {
+        "id": 516125,
+        "name": "地伤增绘",
+        "desc": "",
+        "literary": "",
+        "type": "Potential",
+        "rarity": "SR"
+    },
+    "516126": {
+        "id": 516126,
+        "name": "二阶增绘",
+        "desc": "",
+        "literary": "",
+        "type": "Potential",
+        "rarity": "SR"
+    },
+    "516127": {
+        "id": 516127,
+        "name": "跃阶绘域",
+        "desc": "",
+        "literary": "",
+        "type": "Potential",
+        "rarity": "SSR"
+    },
+    "516128": {
+        "id": 516128,
+        "name": "标定扩蚀",
+        "desc": "",
+        "literary": "",
+        "type": "Potential",
+        "rarity": "SR"
+    },
+    "516129": {
+        "id": 516129,
+        "name": "印记蚀刻",
+        "desc": "",
+        "literary": "",
+        "type": "Potential",
+        "rarity": "SR"
+    },
+    "516130": {
+        "id": 516130,
+        "name": "重标压制",
+        "desc": "",
+        "literary": "",
+        "type": "Potential",
+        "rarity": "SSR"
+    },
+    "516131": {
+        "id": 516131,
+        "name": "地脉激活",
+        "desc": "",
+        "literary": "",
+        "type": "Potential",
+        "rarity": "SR"
+    },
+    "516132": {
+        "id": 516132,
+        "name": "厚土沉积",
+        "desc": "",
+        "literary": "",
+        "type": "Potential",
+        "rarity": "SR"
+    },
+    "516133": {
+        "id": 516133,
+        "name": "地源增幅",
+        "desc": "",
+        "literary": "",
+        "type": "Potential",
+        "rarity": "SSR"
+    },
+    "516141": {
+        "id": 516141,
+        "name": "绘域升势",
+        "desc": "",
+        "literary": "",
+        "type": "Potential",
+        "rarity": "SR"
+    },
+    "516142": {
+        "id": 516142,
+        "name": "绘域轰击",
+        "desc": "",
+        "literary": "",
+        "type": "Potential",
+        "rarity": "SR"
+    },
+    "516143": {
+        "id": 516143,
+        "name": "绘域协战",
+        "desc": "",
+        "literary": "",
+        "type": "Potential",
+        "rarity": "SR"
+    },
     "516201": {
         "id": 516201,
         "name": "流光极闪",
@@ -19972,6 +20372,14 @@
         "name": "骑士的展示柜",
         "desc": "「尘沙（源初）」喜爱的家具，用于布置魔王之塔",
         "literary": "所有装备都擦得闪闪发亮——好像全新的一样！",
+        "type": "DormFurniture",
+        "rarity": "SSR"
+    },
+    "710016": {
+        "id": 710016,
+        "name": "露营野炊套",
+        "desc": "「优叶」喜爱的家具，用于布置魔王之塔",
+        "literary": "呼……呼……好烫！露营的时候怎么能少了烤棉花糖？",
         "type": "DormFurniture",
         "rarity": "SSR"
     },
